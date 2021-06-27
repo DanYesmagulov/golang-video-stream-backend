@@ -1,0 +1,14 @@
+port: "8000"
+
+db:
+  username: "postgres"
+  host: "0.0.0.0"
+  port: "5432"
+  dbname: "postgres"
+  sslmode: "disable"
+
+minio:
+  host: "0.0.0.0:9000"
+  access_key: "minio"
+  secret_key: "minio123"
+  bucket: "video-file"
